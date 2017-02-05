@@ -17,8 +17,10 @@ public class MainActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        someButton.setPressed(true);
+        someButton.setSelected(true);
     }
+
+
 
 
     @BindView(R.id.some_button)
